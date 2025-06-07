@@ -1,1 +1,4 @@
 # Fake-News-Classifier
+
+This project demonstrates a deep learning-based fake news detection system leveraging an LSTM neural network to classify news headlines or content as real or fake. The model is trained on the combined_fake_news.csv dataset, which includes labeled text data sourced from both reliable and fabricated news articles. The pipeline includes essential NLP preprocessing steps such as lowercasing, punctuation removal, stopword filtering, tokenization, and padding. The input text is vectorized using an embedding layer to capture semantic relationships between words.
+The LSTM model is implemented using Keras and trained on the processed data. It captures long-term dependencies in textual sequences, making it well-suited for detecting linguistic patterns in fake news. The model performance is evaluated using accuracy, precision, recall, F1-score, and a confusion matrix to ensure robust classification.
